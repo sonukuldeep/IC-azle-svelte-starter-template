@@ -7,7 +7,7 @@ Make sure that [Node.js](https://nodejs.org/en/) `>= 16.x` and [`dfx`](https://i
 Run the following commands in a new, empty project directory:
 
 ```sh
-dfx start # Run dfx in the background
+dfx start --clean --background # Run dfx in the background
 npm run setup # Install packages, deploy canisters, and generate type bindings
 npm start # Start the development server
 ```
